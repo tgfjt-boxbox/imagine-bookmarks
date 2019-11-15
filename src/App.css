@@ -1,0 +1,51 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+img {
+  max-width: 100%;
+}
+
+#app-root {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.Grid {
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: calc(50% - 400px);
+  padding-right: calc(50% - 400px);
+}
+
+.Link {
+  display: block;
+}
+
+.Link-image  {
+  position: relative;
+}
+.Link-image::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+.Link-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

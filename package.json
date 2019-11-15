@@ -1,0 +1,34 @@
+{
+  "name": "imagine-bookmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "dev": "parcel src/new-tab.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgfjt-boxbox/imagine-bookmarks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgfjt-boxbox/imagine-bookmarks/issues"
+  },
+  "homepage": "https://github.com/tgfjt-boxbox/imagine-bookmarks#readme",
+  "dependencies": {
+    "preact": "^10.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": "last 2 Chrome versions"
+}

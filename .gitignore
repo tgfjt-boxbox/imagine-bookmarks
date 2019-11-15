@@ -1,0 +1,9 @@
+node_modules
+
+.cache
+
+dist/*
+!dist/*.png
+!dist/*.json
+!dist/*.html
+!dist/background.js

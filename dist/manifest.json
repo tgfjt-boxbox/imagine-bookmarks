@@ -1,0 +1,24 @@
+{
+  "name": "imagine bookmarks",
+  "short_name": "mirubukuma",
+  "description": "want a image",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon-16.png",
+    "128": "icon-128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "chrome_url_overrides": {
+    "newtab": "new-tab.html"
+  },
+  "permissions": [
+    "bookmarks",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
